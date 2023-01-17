@@ -1,0 +1,41 @@
+.top_logo img{
+	width: 18%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 10%);
+	border: 5px #000 solid;
+	border-radius: 50%
+}
+.bottom_area{
+	width: 70%;
+	background: red;
+	display: block;
+	height: 120vh;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 15%);
+	z-index: -1;
+	outline: 2px solid #000;
+}
+.bottom_area p{
+	font-size: 25px;
+	margin: 90px 10px 10px 10px;
+	text-align: justify;
+}
+.buttons{
+	margin-top: 50px;
+}
+.buttons a{
+	display: inline-flex;
+	padding: 10px 15px;
+	font-size: 17px;
+	outline: 0.5px solid #000;
+	margin-left: 20px;
+	background: #ff6600;
+	text-decoration: none;
+	font-family: small-caps;
+}
+.buttons a:hover{
+	background: #ff0690;
+	transition: 0.5s;
+}
